@@ -1,0 +1,203 @@
+@font-face {
+    font-family: "NotoSansR";
+    src: url("../Noto_Sans/NotoSans-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "HanSans";
+    src: url("../Noto_Sans/BlackHanSans-Regular.ttf") format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "NotoSansR";
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: transparent;
+    background: rgba(160, 160, 160, 0.82);
+}
+
+h1 {
+    text-align: left;
+    margin-top: 30px;
+    display: inline-block;
+    width: 300px;
+    height: 18px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: hsla(0,0%,100%,.7);
+    line-height: 2rem;
+    cursor: pointer;
+}
+
+.head_inner nav {
+    width: 100%;
+    text-align: center;
+    height: 70px;  
+    z-index: 99;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.gnb_inner {
+    text-align: center;
+    display: inline-block;
+    margin-right: 110px;
+}
+
+.gnb_inner ul {
+    display: inline-block;
+    width: 700px;
+}
+
+.gnb_inner ul li {
+    float: left;
+    margin-left: 60px;
+}
+
+.gnb_inner ul li a {
+    color: #112233;
+    font-family: 400;
+    font-size: 15px;
+    border-radius: 3px;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: hsla(0,0%,100%,.7);
+    line-height: 1.3rem;
+    cursor: pointer;
+}
+
+
+.gnb_inner ul li:hover {
+    color: rgb(102, 102, 245);
+    font-weight: bold;
+}
+
+/* header 영역 종료 */
+
+
+#content {
+    width: 100%;
+}
+.main {
+    width: auto;
+    height: 600px;
+    margin: 0 auto;
+    background: linear-gradient(180deg,rgba(92, 91, 91, 0.8) 0,rgba(46, 45, 45, 0.8) 90%),url(/images/2.png) no-repeat;
+    background-size: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    background-attachment: fixed;
+}
+.home_title{
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    border: 1px solid rebeccapurple;
+    margin-top: 200px;
+    font-size: 40px;
+}
+.container {
+    width: 100%;
+  }
+  
+  .auto_text {
+    width: 100%;
+    text-align: center;
+    display: none;
+    font-size: 27px;
+  }
+  
+  button {
+    display: block;
+    margin: 100px auto 20px;
+    width: 150px;
+    height: 50px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 30px;
+    background: #f4623a;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+  }
+.tit {
+    padding-top: 200px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 3rem;
+    color: hsla(0,0%,100%,.7);
+    line-height: 2rem;
+}
+
+
+
+.about_inner {
+    width: 1300px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.about_inner h2{
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    font-family: HanSans ,sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.about_info {
+    margin-left: 150px;
+}
+.about_info ul {
+    text-align: center;
+}
+.about_info ul li {
+    text-align: center;
+    padding-top: 40px;
+    display: inline-block;
+    width: 330px;
+    height: 140px;
+}
+.about_info ul li img {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    float: left;
+}
+
+
+.about_info ul li span{
+    text-align: center;
+    margin-right: 15%;
+}
+.info_subtit{
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 15px;
+}
+.info_tit{
+    font-weight: bold;
+    font-size: 25px;
+    display: block;
+}
