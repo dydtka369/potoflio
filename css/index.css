@@ -26,6 +26,11 @@ header {
     left: 0;
     background-color: transparent;
     background: rgba(160, 160, 160, 0.82);
+    
+}
+.ab {
+    background-color: #fff;
+    color: #ccc;
 }
 
 h1 {
@@ -155,7 +160,7 @@ h1 {
     background-color: #fff;
 }
 .about_inner h2{
-    width: auto;
+    width: 350px;
     margin: 0 auto;
     text-align: center;
     padding-top: 50px;
@@ -200,4 +205,25 @@ h1 {
     font-weight: bold;
     font-size: 25px;
     display: block;
+}
+.skills {
+    width: 100%;
+    background-color: bisque;
+}
+.skills_inner {
+    width: 1300px;
+    height: 800px;
+    margin: 0 auto;
+}
+.skills_inner h2{
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    font-family: HanSans ,sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 1.5;
 }
